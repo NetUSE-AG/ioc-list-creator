@@ -1,0 +1,135 @@
+[
+    {
+        "url": "https://hole.cert.pl/domains/domains.txt",
+        "source": "cert.pl",
+        "type":"text/plain",
+        "content": "domain",
+        "parser": "domain"
+    },
+    {
+        "url": "https://hole.cert.pl/domains/domains.csv",
+        "source": "cert.pl",
+        "type": "text/csv",
+        "content": "domain",
+        "parser": "cert"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/all.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/ssh.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/mail.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/apache.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/imap.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/ftp.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/sip.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/bots.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/strongips.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://lists.blocklist.de/lists/bruteforcelogin.txt",
+        "source": "blocklist.de",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "ip"
+    },
+    {
+        "url": "https://openphish.com/feed.txt",
+        "source": "openphish.com",
+        "type": "text/plain",
+        "content": "url",
+        "parser": "ip"
+    },
+    {
+        "url": "https://sslbl.abuse.ch/blacklist/sslipblacklist.csv",
+        "source": "abuse.ch",
+        "type": "text/csv",
+        "content": "ip",
+        "parser": "abuse"
+    },
+    {
+        "url": "https://feodotracker.abuse.ch/downloads/ipblocklist.csv",
+        "source": "abuse.ch",
+        "type": "text/csv",
+        "content": "ip",
+        "parser": "abuse"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/MalwareDomainList.com/master/clean.list",
+        "source": "MalwareDomainList.com",
+        "type": "text/plain",
+        "content": "domain",
+        "parser": "ip"
+    }, 
+    {
+        "url": "https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/MalwareDomainList.com/master/domains.list",
+        "source": "MalwareDomainList.com",
+        "type": "text/plain",
+        "content": "domain",
+        "parser": "ip"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt",
+        "source": "Pallebone",
+        "type": "text/plain",
+        "content": "ip",
+        "parser": "pallebone"
+    },
+	{
+	"url": "https://raw.githubusercontent.com/executemalware/Malware-IOCs/main/2021-11-17%20Emotet%20IOCs",
+        "source": "Executemalware",
+        "type": "text/plain",
+        "content": "multi",
+        "parser": "executemalware"
+	}
+]

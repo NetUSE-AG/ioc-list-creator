@@ -1,0 +1,9 @@
+[download]
+download_list=downloads.json
+download_dir=<absolute path to the directory for temporary download cache>
+
+[output]
+output_dir=<absolute path to the lists folder to save the csv files>
+ip_filename=ip_blocklist.csv
+domain_filename=domain_blocklist.csv
+url_filename=url_blocklist.csv

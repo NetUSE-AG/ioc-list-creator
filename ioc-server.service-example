@@ -1,0 +1,22 @@
+[Unit]
+Description=IOC server
+After=network.target
+
+[Service]
+# the specific user that our service will run as
+Environment=CONFIG_FILE=<absolute path to the config file>
+User=<user to run the server>
+Group=<group of the user>
+# another option for an even more restricted service is
+# DynamicUser=yes
+# see http://0pointer.net/blog/dynamic-users-with-systemd.html
+RuntimeDirectory=gunicorn
+WorkingDirectory=<absolute path to the working directory>
+ExecStart=<absolute path to gunicorn> -b 0.0.0.0:<port to run the server on> ioc-server:app
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+TimeoutStopSec=5
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
